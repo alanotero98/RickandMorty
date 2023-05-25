@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap');
+
+.navbar-lateral {
+   position: sticky;
+    top: 0;
+    left: 0;
+    
+    width: 10%;
+    height: 100vh;
+    border-radius: 10px;
+    
+}
+
+.titulo{
+    position: sticky;
+    top: 0;
+    display: grid;
+    justify-self: center;
+    margin-top: 0%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    margin-left: 1%;
+    width:10%;
+    height: 20%
+}
+
+.titulo h2{
+    align-self: center;
+    
+    color: rgb(255, 255, 255);
+    
+    
+}
+img.rick{
+    position: sticky;
+     height: 45px;
+    width: 58px;
+    top: 16px;
+    margin-left: 80%;
+   grid-row-start: 1;
+   justify-self: center;
+   
+}
+img.morty{
+    position: sticky;
+    justify-self: center;
+    height: 44px;
+    top: 18px;
+    margin-left: 250%;
+    /* position: absolute; */
+    
+    }
+
+
+.tres{
+    margin-top: 70%;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+/* .botones{
+    
+    font-family: 'Rubik', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+
+} */
+.botones a {
+    background-color: none;
+    width: 105.7px;
+    height: 56.89px;
+    border-radius: 15px;
+    font-family: 'Rubik', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-self: center;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .botones a:hover {
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.152),
+                1px 1px 5px rgba(252, 250, 250, 0.205);
+  }
+.uno{
+    position: absolute;
+    border-width: 0;
+    left: 40.31px;
+    top: 273.57px;
+    font-size: 15px;
+    background-color: rgba(64, 36, 99, 0.304);
+    color: rgb(244, 225, 225);
+}
+
+.dos{
+    position: absolute;
+    border-width: 0;
+    justify-self: center;
+    left: 40.31px;
+    top: 375.63px;
+    font-size: 15px;
+    background-color: rgba(64, 36, 99, 0.304);
+    color: rgb(244, 225, 225);
+}
+
+.tress{
+    position: absolute;
+    border-width: 0;
+    left: 40.31px;
+    top: 480.63px;
+    font-size: 15px;
+    background-color: rgba(64, 36, 99, 0.304);
+    color: rgb(244, 225, 225);
+}

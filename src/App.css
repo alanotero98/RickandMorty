@@ -1,38 +1,59 @@
+*{
+  
+}
 .App {
-  text-align: center;
+   
+   text-align: center;
+   /* display: grid;
+   grid-template-columns: 80% 20%; */
+  
+   
+  background-color: black;
+   
+}
+.texto{
+   justify-content: center;
+   align-self: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app2{
+   min-height: 100vh;
+   height: 100%;
+   width: 100%;
+   /* height: 100%;
+   background-image: url('/public/876590.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment: fixed; */
+   background-image: url('/public/168420483493103931.png');
+   background-repeat: no-repeat;
+   background-size: 130% 100%;
+   background-position: bottom;
+   background-attachment: fixed; 
+   filter: brightness(0.89);
+   
+   
+}
+h1{
+   color: aliceblue;
+}
+.card{
+/*    
+   background-image: url('/public/nadir-khabibullin-f1.gif');
+   background-repeat: no-repeat;
+   background-size: 79% 125%;
+   background-attachment: fixed; 
+   width: 100%; */
+  /* color: antiquewhite;
+   text-align: center;
+   text-align: center;
+   display: grid;
+   grid-template-columns: 500px ;
+   justify-content: center;
+   align-items: center; */
+   
+   
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

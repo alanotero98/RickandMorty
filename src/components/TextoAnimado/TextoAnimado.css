@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap');
+ 
+.parrafo{
+    position: absolute;
+    left: 68%;
+    top:15%;
+    width: 28%;
+    border: 1px solid rgb(251, 226, 226);
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif, black 900;
+    background-color: rgba(255, 255, 255, 0.779);
+    color: rgb(0, 0, 0);
+    border-radius: 55px;
+    /* border-bottom: 40px solid rgba(0, 0, 0, 0.604);
+    border-right: 38px solid transparent; */
+    padding: 20px;
+    box-shadow: 0px 0px 20px 10px rgb(6, 6, 6);
+  }
