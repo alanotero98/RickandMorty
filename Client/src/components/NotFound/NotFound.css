@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap');
+*{
+    margin-top: 0;
+    
+    
+}
+ 
+.not{
+    
+    background-image:url("./5aumcpmwjst21.jpg");
+    background-repeat: no-repeat;
+    background-size: 88% 100%;
+    background-position: right;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.numero{
+    position: absolute;
+    font-size: 80px;
+    top: 36%;
+    left: 44%;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+}
+
+.texto{
+    position: absolute;
+    font-size: 50px;
+    top:54%;
+    left: 28%;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+}

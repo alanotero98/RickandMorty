@@ -1,0 +1,29 @@
+/* @font-face {
+    font-family: 'MiFuente';
+    src: url('./alternative-rick-and-morty-font/get-schwifty.ttf') format('truetype');
+  } */
+.card{
+    height: 100%;
+    width: 100%;
+    color: antiquewhite;
+   text-align: center;
+   text-align: center;
+   display: grid;
+   grid-template-columns: 500px ;
+   justify-content: center;
+   align-items: center;
+    /* . */
+    margin-right: 0%;
+     display: grid;
+     grid-template-columns: 30% 30% ; 
+     justify-items: start; /* Alinea los elementos horizontalmente al comienzo */
+  align-items: start;
+    margin-top: 5%;
+    overflow: hidden;
+   
+    /* grid-template-rows: 25% 1fr 25%; */
+} 
+
+
+
+
